@@ -1,7 +1,6 @@
-import bodyParser from "body-parser"
 import express from 'express';
 import routes from './routes.js';
-
+import './database';
 
 class App {
   constructor() {
@@ -11,7 +10,7 @@ class App {
   }
 
   middlewares() {
-    this.server.use(bodyParser.json());
+    this.server.use(express.json());
   }
 
   routes() {

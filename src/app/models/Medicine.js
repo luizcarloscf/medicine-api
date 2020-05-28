@@ -4,20 +4,21 @@ class Medicine extends Model {
   static init(sequelize) {
     super.init(
       {
-        Substancia: Sequelize.STRING,
-        CNPJ: Sequelize.STRING,
-        Laboratorio: Sequelize.STRING,
-        CodigoGGREM: Sequelize.STRING,
-        Registro: Sequelize.STRING,
-        EAN1: Sequelize.STRING,
-        EAN2: Sequelize.STRING,
-        EAN3: Sequelize.STRING,
-        Produto: Sequelize.STRING,
+        substancia: Sequelize.STRING,
+        cnpj: Sequelize.STRING,
+        laboratorio: Sequelize.STRING,
+        codigoggrem: Sequelize.STRING,
+        registro: Sequelize.STRING,
+        ean1: Sequelize.STRING,
+        ean2: Sequelize.STRING,
+        ean3: Sequelize.STRING,
+        produto: Sequelize.STRING,
       },
       {
         sequelize,
       }
     );
+    return this;
   }
 }
 

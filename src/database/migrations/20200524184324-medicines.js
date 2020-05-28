@@ -9,39 +9,39 @@ module.exports = {
         autoIncrement: true,
         primaryKey: true,
       },
-      Substancia: {
+      substancia: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      CNPJ: {
+      cnpj: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      Laboratorio: {
+      laboratorio: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      CodigoGGREM: {
+      codigoggrem: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      Registro: {
+      registro: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      EAN1: {
+      ean1: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      EAN2: {
+      ean2: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      EAN3: {
+      ean3: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      Produto: {
+      produto: {
         type: Sequelize.STRING,
         allowNull: false,
       },
